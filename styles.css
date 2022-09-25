@@ -62,7 +62,7 @@ nav {
   width: 100%;
   margin: 0;
   padding: 20px;
-  background-color: firebrick;
+  background-color: #45567d;
   display: absolute;
   position: fixed;
   top: 0;
@@ -89,24 +89,39 @@ font-size: 2rem;
   }
 
 /* Welcome Section */
-.odd-section {
+#welcome-section {
   height: 100vh;
-  background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  /* background: linear-gradient(62deg, #3a3d40 0%, #181719 100%); */
   padding: 25rem 2em;
 }
 
 #subtitle {
-color: firebrick;
-margin-top: 0;
+  color: snow;
+  margin-top: 0;
+  }
+
+.odd-section {
+  /* height: 100vh; */
+  background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  padding: 2em;
 }
 
-/* Project Cards */
 .even-section {
   /* height: 100vh; */
   background-color: #45567d;
   /* margin: 0; */
-  padding-top: 2em;
+  padding: 2em;
 }
+
+#js-header-container {
+  background-color: steelblue;
+  color:azure;
+  padding: 3% 10%;
+  box-shadow: 3px 5px 10px grey;
+}
+
+/* Project Cards */
+
 
 #design-project-section-title {
     padding-top: 1.5em;
@@ -145,7 +160,7 @@ gap: 2em;
 }
 
 .proj-link:hover {
-color: firebrick;
+color: slategray;
 }
 
 .button {
@@ -183,7 +198,7 @@ color: firebrick;
 #cta-tagline {
   display: block;
   width: 100%;
-  color: firebrick;
+  color: snow;
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -206,7 +221,7 @@ i{
 }
 
 hr {
-  border-top: 5px solid firebrick;
+  border-top: 5px solid slategray;
   border-bottom: 0;
 }
 
