@@ -4,19 +4,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+
+  <!-- styles bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+  <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+
+  <!-- icons emojis favicons -->
   <script src="https://kit.fontawesome.com/a653cd8947.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles.css" />
+
   <title>Becky Andrews CSS Test Site</title>
+
+  <!-- custom styles -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
 
   <header class="header">
         <nav id="navbar" class="flex">
-            <h2 id="logo">Becky Andrews</h2>
+            <h2 id="logo">Dr. Becky Andrews</h2>
         
 
             <a class="header__hamburger hide-for-desktop" href="#" >
@@ -36,8 +48,11 @@
 
 
   <section id="welcome-section" class="odd-section">
-      <h1 id="title">Dr. Becky Andrews</h1>
-      <h4 id="subtitle">Web Development, Health Systems and Technology Consultant, Medical Detective</h4>
+    <h1 id="welcome-title">Welcome to my Portfolio Site</h1>
+    <a class="btn btn-outline-light" href="https://my.visualcv.com/becky-andrews-7354817/" role="button">Tech Resume</a>
+    <a class="btn btn-outline-light" href="https://my.visualcv.com/becky-andrews-7436258/" role="button">Medical Resume</a>
+    <a class="btn btn-outline-light" href="https://my.visualcv.com/becky-andrews-7517159/" role="button">Academic Resume</a>
+    <h4 id="welcome-subtitle">Web Development, Health Systems and Technology Consultant, Medical Detective</h4>
   </section>
 
   <section id="wix-project-section" class="even-section portfolio-section">
@@ -121,7 +136,7 @@
   </section>
 
   <section id="beginner-JS-games" class="even-section portfolio-section">
-    <header id="js-header-container"></header>
+    <header id="js-header-container">
       <h2 class="site-header-big-words">"Fun" with <em>really</em> basic Javascript</h2>
       <h3 class="site-header-tag-line">Dr. Becky's Coding Adventure part 4: with new & improved ways to waste time</h3>
     </header>
@@ -184,24 +199,16 @@
   </section>
 
 
-  <section id="cta">
+  <section id="cta" class="odd-section">
      <h2 id="invitation">Let's work together....</h2>
-     <p id="cta-tagline">How do you take your coffee? What am I saying, I'm not going to get you coffee... I have people for that</p>
+     <p id="cta-tagline">How do you take your coffee? What am I saying, I'm SO not going to get your coffee... I have people for that</p>
 
      <div id="social-flex">
-      
-     <p><i class="fa-brands fa-square-facebook"></i>Facebook</p> 
-
-    <!-- this should have id of "profile link" and an <a> that links to open GitHub or freeCodeCamp profile in new tab -->
-     <a id="profile-link" href="https://github.com/DrBecky22" target="_blank"><p><i class="fa-brands fa-github"></i>GitHub</p></a>
-
-     <p><i class="fa-brands fa-twitter"></i>Twitter</p>
-     
-     <p><i class="fa-solid fa-at"></i>Email</p>
-
-     <p><i class="fa-solid fa-mobile-screen-button"></i>Call</p>
-
-   </div>
+       <a id="profile-link" href="https://www.linkedin.com/in/drbeckyandrewsnd/" target="_blank"><p><i class="fa-brands fa-linkedin-in"></i>LinkedIn</p> 
+       <a id="profile-link" href="https://github.com/DrBecky22" target="_blank"><p><i class="fa-brands fa-github"></i>GitHub</p></a>
+       <p><i class="fa-solid fa-at"></i>Email</p>
+       <p><i class="fa-solid fa-mobile-screen-button"></i>Call</p>
+     </div>
   </section>
 
 <hr>

@@ -35,6 +35,22 @@ p {
   margin: 0;
 }
 
+#welcome-title {
+padding-bottom: 30px;
+}
+
+#welcome-subtitle {
+  padding-top: 50px;
+}
+
+/* .btn btn-outline-light {
+  gap: 5rem;
+} */
+
+.card p, .card h4 {
+  color: black;
+}
+
 /* NAV BAR Styles (link to hamburger) */
 a, a:visited, a:hover {
   font-family: 'Poppins', sans-serif;
@@ -108,20 +124,19 @@ font-size: 2rem;
 
 .even-section {
   /* height: 100vh; */
-  background-color: #45567d;
-  /* margin: 0; */
-  padding: 2em;
+  background-color: grey;
+  margin: 0;
+  padding: .5em;
 }
 
 #js-header-container {
   background-color: steelblue;
   color:azure;
-  padding: 3% 10%;
+  padding: 4% 10%;
   box-shadow: 3px 5px 10px grey;
 }
 
 /* Project Cards */
-
 
 #design-project-section-title {
     padding-top: 1.5em;
@@ -137,7 +152,6 @@ flex-wrap: wrap;
 justify-content: center;
 gap: 2em;
 }
-
 
 .project-tile {
   width: 300px;
@@ -161,6 +175,23 @@ gap: 2em;
 
 .proj-link:hover {
 color: slategray;
+}
+
+/* js games section design for cards */
+.card-section {
+  padding: 3% 10% 7%;
+}
+
+.card-section-heading {
+  padding: 5% 10%;
+}
+
+.card {
+  /* height: 250px; */
+  margin-top: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  box-shadow: 3px 5px 8px rgb(106, 106, 201);
 }
 
 .button {
